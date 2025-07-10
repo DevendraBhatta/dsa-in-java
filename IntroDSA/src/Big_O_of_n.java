@@ -1,4 +1,4 @@
-public class Main {
+public class Big_O_of_n {
     public static void main(String[] args) {
         printItems(10);
     }
@@ -8,4 +8,7 @@ public class Main {
             System.out.println(i);
         }
     }
+
+    // Big O(n)
+    // O(n) = 10
 }
