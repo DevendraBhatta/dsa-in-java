@@ -1,15 +1,14 @@
-public class Big_O_of_n_sqr {
+public class Big_O_O_of_n {
     public static void main(String[] args) {
         printItems(10);
     }
 
     public static void printItems(int n) {
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.println(i + " " + j);
-            }
+            System.out.println(i);
         }
     }
-    // Big O
-    // O(n*n) = O(n^2)
+
+    // Big O(n)
+    // O(n) = 10
 }
