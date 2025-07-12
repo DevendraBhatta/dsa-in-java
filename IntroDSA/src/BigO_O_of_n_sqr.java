@@ -1,4 +1,4 @@
-public class Big_O_O_of_n_sqr {
+public class BigO_O_of_n_sqr {
     public static void main(String[] args) {
         printItems(10);
     }

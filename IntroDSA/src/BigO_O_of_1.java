@@ -1,4 +1,4 @@
-public class Big_O_O_of_1 {
+public class BigO_O_of_1 {
     public static void main(String[] args) {
         System.out.println("Number of all Items are: "+addItems(20));
     }
