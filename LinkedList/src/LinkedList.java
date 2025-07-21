@@ -4,19 +4,8 @@ public class LinkedList {
     private Node tail;
     private int length;
 
-    // Node Class
-    public static class Node {
-        int value;
-        Node next;
-
-        // Node Class's Constructor
-        Node(int value) {
-            this.value = value;
-        }
-    }
 
 
-    // LinkedList Class's Constructor
     public LinkedList(int value) {
         Node newNode = new Node(value);
         head = newNode;
@@ -24,7 +13,7 @@ public class LinkedList {
         length = 1;
     }
 
-    // printList function
+
     public void printList() {
         Node temp = head;
         while (temp != null) {
@@ -44,5 +33,16 @@ public class LinkedList {
 
     public void getLength() {
         System.out.println("Length:" + length);
+    }
+
+
+    // Node Class
+    public static class Node {
+        int value;
+        Node next;
+
+        public Node(int value) {
+            this.value = value;
+        }
     }
 }
